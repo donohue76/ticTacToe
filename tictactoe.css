@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 40pt;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#playerInputs{
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#player1 {
+  float:left;
+}
+
+#player2 {
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+td:clic
