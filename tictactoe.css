@@ -10,6 +10,12 @@ h1 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
+#startBtn {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
 #playerInputs{
   width: 600px;
   text-align: center;
@@ -23,6 +29,10 @@ h1 {
 
 #player2 {
   float: right;
+}
+
+#submit {
+  margin-top: 20px;
 }
 
 .clear{
