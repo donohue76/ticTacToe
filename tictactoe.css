@@ -10,17 +10,60 @@ h1 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25pt;
+  line-height: 50px;
+}
+
+#x {
+  float:left;
+}
+
+#o {
+  float: right;
+}
+
+#names h2 {
+    text-align: center;
+}
+
 #startBtn {
   text-align: center;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  width: 600px;
+  height: 100px;
+}
+
+#start {
+  bottom:0;
 }
 
 #playerInputs{
   width: 600px;
-  text-align: center;
   margin: auto;
   margin-bottom: 50px;
+  height: 100px;
+  text-align: center;
+}
+
+#playerDisplay{
+  width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  min-height: 100px;
+  text-align: center;
+}
+
+#names {
+  width: 550px;
+  margin: auto;
 }
 
 #player1 {
@@ -33,6 +76,7 @@ h1 {
 
 #submit {
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .clear{
