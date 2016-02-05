@@ -11,25 +11,16 @@
   <body>
     <a href="tictactoe.html"><h1>Tic Tac Toe</h1></a>
     <div id="startBtn">
+      <div id="block"></div>
       <button id="start">Start Game</button>
     </div>
     <div id="playerInputs">
       <input type="text" id="player1" placeholder="Player One"/>
       <input type="text" id="player2" placeholder="Player Two"/>
       <div class="clear"></div>
-      <button id="submit" >Submit</button>
-    </div>
-    <div id="playerDisplay">
-      <!-- <div id="x">
-        <h2>X</h2>
+      <div id="submitDiv">
+        <button id="submit" >Submit</button>
       </div>
-      <div id="o">
-        <h2>O</h2>
-      </div> -->
-      <div id="names">
-        <h2></h2>
-      </div>
-      <input type="reset" id="reset" value="Reset"/>
     </div>
     <div class="clear"></div>
     <table class="grid">
@@ -59,13 +50,20 @@
       </tr>
     </table>
     <div id="score">
-      <div id="player1Score">
-        <h2 id="name1"></h2>
-        <p></p>
-      </div>
-      <div id="player2Score">
-        <h2 id="name2"></h2>
-        <p></p>
+      <div id="playerDisplay">
+        <div id="names">
+          <h2></h2>
+        </div>
+        <div id="player1Score">
+          <p>0</p>
+        </div>
+        <div id="player2Score">
+          <p>0</p>
+        </div>
+        <div class="clear"></div>
+        <div id="resetDiv">
+          <input type="reset" id="reset" value="Reset"/>
+        </div>
       </div>
     </div>
   </body>
