@@ -147,9 +147,4 @@ $(document).ready(function(){
     }, 100);
   }).css('opacity', 0);
 
-  var audio = $("#soundclip")[0];
-$("#start").mouseenter(function() {
-  audio.play();
-});
-
 });
