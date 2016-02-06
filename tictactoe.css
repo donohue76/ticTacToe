@@ -172,9 +172,6 @@ td {
   font-size: 16px;
   font-family: 'Gloria Hallelujah';
   transition: border-color 1s linear;
-     -moz-transition: border-color 1s linear;    /* FF3.7+ */
-     -o-transition: border-color 1s linear;      /* Opera 10.5 */
-     -webkit-transition: border-color 1s linear; /* Saf3.2+, Chrome */
 }
 
 #reset:hover, #submit:hover, #start:hover {
