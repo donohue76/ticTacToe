@@ -1,6 +1,14 @@
 body {
   margin: 0 auto;
   background-color: black;
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
 }
 
 h1 {
@@ -52,6 +60,7 @@ h2 {
 #playerInputs{
   width: 600px;
   margin: auto;
+  margin-top: 80px;
   margin-bottom: 50px;
   height: 100px;
   position: relative;
@@ -63,6 +72,7 @@ h2 {
   text-align: center;
   margin: auto;
   width: 600px;
+  margin-top: 20px;
 }
 
 #playerDisplay{
@@ -75,11 +85,12 @@ h2 {
 }
 
 #resetDiv {
-  bottom: 0;
   position: absolute;
   text-align: center;
   margin: auto;
   width: 600px;
+  min-height: 100px;
+  margin-top: -90px;
 }
 
 #names {
@@ -89,28 +100,33 @@ h2 {
 
 #player1 {
   float:left;
+  width: 200px;
 }
 
 #player2 {
   float: right;
+  width: 200px;
 }
 
 #submit {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 0px;
 }
 
 #score {
   width: 600px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 #player1Score {
   float: left;
+  min-height: 100px;
 }
 
 #player2Score {
   float: right;
+  min-height: 100px;
 }
 
 p {
@@ -129,7 +145,67 @@ table {
 }
 
 td {
-  height: 200px;
-  width: 200px;
-  border: 2px solid white;
+  height: 175px;
+  width: 175px;
+  border: 0px;
+}
+
+#row1, #row2 {
+  border-bottom: 5px solid white;
+}
+
+.box:nth-child(1)  {
+  border-right: 5px solid white;
+}
+
+.box:nth-child(2)  {
+  border-right: 5px solid white;
+}
+#reset, #submit, #start {
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0);
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Gloria Hallelujah';
+  transition: border-color 1s linear;
+}
+
+#reset:hover, #submit:hover, #start:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+#reset:focus, #submit:focus, #start:focus {
+  outline: 0;
+}
+
+#player1, #player2 {
+  padding: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  transition: border 1s;
+  background-color: black;
+  color: white;
+  font-family: 'Gloria Hallelujah';
+  font-size: 16px;
+}
+
+#player1:focus,
+#player2:focus {
+  border: solid 3px rgba(255, 255, 255, 1);
+  box-shadow: 0 0 5px 1px #969696;
+  outline: 0;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: 'Gloria Hallelujah';
+  font-size: 10px;
 }
